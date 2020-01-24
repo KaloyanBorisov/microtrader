@@ -5,4 +5,4 @@ LABEL application.component=microtrader-portfolio
 # Copy application artefacts
 ARG app_version
 LABEL application.version=${app_version}
-COPY build/jars/microtrader-portfolio-${app_version}-fat.jar /app/app.jar
+COPY microtrader-portfolio-${app_version}-fat.jar /app/app.jar
